@@ -1,0 +1,19 @@
+{
+  "name": "signalk2nmea0183",
+  "version": "0.0.1",
+  "description": "Conversion from Signal K to NMEA 0183",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "teppo.kurki@iki.fi",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.2"
+  },
+  "dependencies": {
+    "js-quantities": "^1.6.0",
+    "nmea": "0.0.9"
+  }
+}
